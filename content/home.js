@@ -26,7 +26,7 @@ timisbusy.content.marquis =
 },
 {
   headline: "Cycling",
-  body: "I ride Loretta pretty much every day, but you can take her for a spin if you ask nicely.",
+  body: "I ride Loretta pretty much every day, but you can take her for a spin if you ask real nice.",
   buttonCopy: "Rent My Bike",
   url: "http://spinlister.com/loretta",
   background: "/images/loretta.jpeg"
@@ -41,6 +41,12 @@ timisbusy.content.lists =
     [{
       text: "Open Source",
       url: "http://github.com/timisbusy"
+    },{
+      text: "GoChime",
+      url: "http://beta.gochime.com"
+    },{
+      text: "DioramaTV",
+      url: "http://dioramatv.com"
     }]
 },{
   title: "Copy",
@@ -73,7 +79,10 @@ timisbusy.content.lists =
   idName: "otherList",
   items: 
     [{
-      text: "Other",
-      url: "/nutttin"
+      text: "Dueling Beyonces (Video)",
+      url: "https://www.youtube.com/watch?v=g5YObfmMJSM&feature=plcp"
+    },{
+      text: "Afternoon Installation (Video)",
+      url: "https://www.youtube.com/watch?v=1rXKso6oy8w&feature=plcp"
     }]
 }]

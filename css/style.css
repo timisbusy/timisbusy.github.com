@@ -4,8 +4,12 @@ body {
 }
 
 a h1 {
-  color: #000;
+  color: #FDE;
   padding: 1em 2em .5em 2em;
+}
+
+.page a.logo {
+  background: transparent;
 }
 
 h3 {
@@ -17,12 +21,15 @@ h3 {
   width: 60em;
   margin: 0px auto;
   font-family: 'Helvetica', 'arial', 'sans-serif';
+  color: #FDE;
   background: rgb(120,100,220);
   background: rgba(120,100,220, .5);
 }
 
 .page a {
-  color: #E82;
+  color: #3AD;
+  background: #213;
+  padding: .25em;
   text-decoration: none;
 }
 
@@ -66,10 +73,21 @@ a.button {
   background: rgb(99,73,112);
   background: rgba(99,73,112, .4);
   float: left;
-  width: 19em;
+  width: 20em;
   margin-top: 2em;
   margin-left: 4em;
   margin-bottom: 4em;
+}
+
+.list ul {
+  margin-left: 0em;
+  padding: 0em;
+  list-style-type: none;
+}
+
+.list li {
+  margin-top: 1em;
+  text-decoration: none;
 }
 
 #headerLinks {
@@ -80,12 +98,17 @@ a.button {
 
 #headerLinks > a {
   margin-right: 1em;
+  background: transparent;
 }
 
 #footer {
   clear: both;
   margin-top: 2em;
-  padding: 1em;
+  padding: 2em 4em;
   background: rgb(99,73,112);
   background: rgba(99,73,112, .4);
+}
+
+#footer > p {
+  line-height: 2em;
 }
