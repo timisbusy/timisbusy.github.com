@@ -28,7 +28,7 @@ timisbusy.content.marquis =
   headline: "Cycling",
   body: "I ride Loretta pretty much every day, but you can take her for a spin if you ask real nice.",
   buttonCopy: "Rent My Bike",
-  url: "http://spinlister.com/loretta",
+  url: "https://www.spinlister.com/bikes/215",
   background: "/images/loretta.jpeg"
 }];
 
