@@ -27,13 +27,11 @@ timisbusy.views.MarquisItem = Backbone.View.extend({
   tagname: "div",
   initialize: function (options) {
     _.bindAll(this);
-    console.log(options);
     this.render();
     this.hide();
   },
   template: Handlebars.compile(timisbusy.templates.marquisItemTemplate),
   render: function () {
-    console.log('rendering marquis:', this.model);
     $(this.el).html(this.template(this.model.toJSON()));
   },
   hide: function () {
@@ -78,12 +76,9 @@ timisbusy.views.List = Backbone.View.extend({
 timisbusy.views.ListItem = Backbone.View.extend({
   tagname: "li",
   initialize: function (options) {
-    console.log('list item: ', options);
     this.render();
   },
   render: function () {
-    console.log('rendering list item:', this.model);
-    console.log($(this.el));
     $(this.el).html("<a href = '" + this.model.url + "'>" + this.model.text + "</a>");
   }
 });
@@ -107,7 +102,6 @@ timisbusy.views.Marquis = Backbone.View.extend({
   initialize: function (options) {
     _.bindAll(this);
     this.options = options || {};
-    console.log(this.options);
     this.content = this.options.content || [];
     this.default = this.options.default || 0;
     this.counter = 0;
@@ -135,7 +129,6 @@ timisbusy.views.Marquis = Backbone.View.extend({
     }
   },
   swap: function (index) {
-    console.log('swapping to ', index );
     this.build(index);
   },
   transition: function () {
@@ -148,9 +141,7 @@ timisbusy.views.Marquis = Backbone.View.extend({
 
 function buildLists (content) {
   content.forEach(function (list) {
-    console.log(list);
     var listId = list.idName;
-    console.log(listId);
     $("<div/>", {
       id: listId,
       class: 'list'
@@ -158,7 +149,6 @@ function buildLists (content) {
     var listModel = new timisbusy.models.List({ title: list.title });
     var testList = new timisbusy.views.List({ el: '#' + listId, model: listModel, itemType: timisbusy.views.ListItem });
     list.items.forEach(function (item) {
-      console.log('adding item: ', item);
       testList.addItem({ model: item });
     });
   });
