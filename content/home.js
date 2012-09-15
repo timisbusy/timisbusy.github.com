@@ -30,6 +30,13 @@ timisbusy.content.marquis =
   buttonCopy: "Rent My Bike",
   url: "https://www.spinlister.com/bikes/215",
   background: "/images/loretta.jpeg"
+},
+{
+  headline: "World Record Holder",
+  body: "That's right. You are currently on the website of the world record holder for most tweets in a row with all 26 letters.",
+  buttonCopy: "Really?",
+  url: "http://recordsetter.com/world-record/consecutive-tweets-using-every-letter-the-alphabet/7331#contentsection",
+  background: "/images/coney.jpeg"
 }];
 
 timisbusy.content.lists = 
