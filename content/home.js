@@ -80,6 +80,10 @@ timisbusy.content.lists =
     {
       text: "Reading",
       url: "http://www.goodreads.com/timisbusy"
+    },
+    {
+      text: "World Record",
+      url: "http://recordsetter.com/world-record/consecutive-tweets-using-every-letter-the-alphabet/7331#contentsection"
     }]
 },{
   title: "Other",
