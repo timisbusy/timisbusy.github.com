@@ -74,9 +74,14 @@ a.button {
   background: rgba(99,73,112, .4);
   float: left;
   width: 20em;
-  margin-top: 2em;
+  margin-top: 3em;
   margin-left: 4em;
-  margin-bottom: 4em;
+  margin-bottom: 1em;
+}
+
+.list.right {
+  float: right;
+  margin-right: 4em;
 }
 
 .list ul {

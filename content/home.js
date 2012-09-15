@@ -37,11 +37,35 @@ timisbusy.content.marquis =
   buttonCopy: "Really?",
   url: "http://recordsetter.com/world-record/consecutive-tweets-using-every-letter-the-alphabet/7331#contentsection",
   background: "/images/coney.jpeg"
+},
+{
+  headline: "Thanks!",
+  body: "Like my website? You can have it.",
+  buttonCopy: "Clone Me",
+  url: "https://github.com/timisbusy/timisbusy.github.com",
+  background: "/images/thanks.jpeg"
 }];
 
 timisbusy.content.lists = 
 
 [{
+  title: "Copy",
+  idName: "copyList",
+  items: 
+    [{
+      text: "Dos Equis (Web)",
+      url: "http://staythirstymyfriends.com"
+    },{
+      text: "Dos Equis (TV)",
+      url: "http://www.youtube.com/watch?v=zX6M7-rAFJE"
+    },{
+      text: "The Naked Brand",
+      url: "http://thenakedbrandfilm.com"
+    },{
+      text: "Portfolio",
+      url: "/copy"
+    }]
+},{
   title: "Code",
   idName: "codeList",
   items: 
@@ -54,20 +78,20 @@ timisbusy.content.lists =
     },{
       text: "DioramaTV",
       url: "http://dioramatv.com"
+    },{
+      text: "This Site",
+      url: "https://github.com/timisbusy/timisbusy.github.com"
     }]
 },{
-  title: "Copy",
-  idName: "copyList",
+  title: "Other",
+  idName: "otherList",
   items: 
     [{
-      text: "Dos Equis",
-      url: "http://staythirstymyfriends.com"
+      text: "Dueling Beyonces (Video)",
+      url: "https://www.youtube.com/watch?v=g5YObfmMJSM&feature=plcp"
     },{
-      text: "The Naked Brand",
-      url: "http://thenakedbrandfilm.com"
-    },{
-      text: "Portfolio",
-      url: "/copy"
+      text: "Afternoon Installation (Video)",
+      url: "https://www.youtube.com/watch?v=1rXKso6oy8w&feature=plcp"
     }]
 },{
   title: "Life",
@@ -84,16 +108,5 @@ timisbusy.content.lists =
     {
       text: "World Record",
       url: "http://recordsetter.com/world-record/consecutive-tweets-using-every-letter-the-alphabet/7331#contentsection"
-    }]
-},{
-  title: "Other",
-  idName: "otherList",
-  items: 
-    [{
-      text: "Dueling Beyonces (Video)",
-      url: "https://www.youtube.com/watch?v=g5YObfmMJSM&feature=plcp"
-    },{
-      text: "Afternoon Installation (Video)",
-      url: "https://www.youtube.com/watch?v=1rXKso6oy8w&feature=plcp"
     }]
 }]

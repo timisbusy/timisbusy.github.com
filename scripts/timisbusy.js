@@ -19,7 +19,8 @@ timisbusy.models.List = Backbone.Model.extend({
     image: "/images/monkey.jpeg",
     url: "http://timisbusy.com",
     text: "Lorem ipsum.",
-    items: []
+    items: [],
+    listNumber: 0
   }
 });
 
@@ -59,15 +60,18 @@ timisbusy.views.List = Backbone.View.extend({
   elements: [],
   tagname: "div",
   initialize: function (options) {
-    console.log('list: ', options);
-    this.counter = 0
+    this.counter = 0;
     this.model = options.model;
+    this.listNumber = this.model.get('listNumber');
     this.itemType = options.itemType;
-    console.log('MODEL HERE: ', this.model);
     this.render();
   },
+  listCounter: 0,
   render: function () {
     $(this.el).html(this.template(this.model.toJSON()));
+    if (this.listNumber % 2 === 0) {
+      $(this.el).addClass('right');
+    }
   },
   template: Handlebars.compile(timisbusy.templates.listTemplate)
 });
@@ -140,13 +144,13 @@ timisbusy.views.Marquis = Backbone.View.extend({
 });
 
 function buildLists (content) {
-  content.forEach(function (list) {
+  content.forEach(function (list, index) {
     var listId = list.idName;
     $("<div/>", {
       id: listId,
       class: 'list'
     }).appendTo("#lists");
-    var listModel = new timisbusy.models.List({ title: list.title });
+    var listModel = new timisbusy.models.List({ title: list.title, listNumber: index });
     var testList = new timisbusy.views.List({ el: '#' + listId, model: listModel, itemType: timisbusy.views.ListItem });
     list.items.forEach(function (item) {
       testList.addItem({ model: item });
