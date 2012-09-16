@@ -5,14 +5,14 @@ timisbusy.content = timisbusy.content || {};
 timisbusy.content.marquis = 
 [{
   headline: "Code",
-  body: "I build real-time web apps using the latest NoSQL hipster nonsense out there.",
+  body: "I build real-time web apps using the latest NoSQL hipster nonsense out there. Redis, mongoDB, node.js, backbone.js, etc.",
   buttonCopy: "Check It Out",
   url: "https://github.com/timisbusy",
   background: "/images/lifeIsGood.jpeg"
 },
 {
   headline: "Copy",
-  body: "I worked for years as a copywriter and creative technologist in advertising.",
+  body: "For a few years, I worked as a copywriter and technologist at advertising agencies.",
   buttonCopy: "Read It",
   url: "http://timisbusy.github.com/copy",
   background: "/images/einsteinChillin.jpeg"
@@ -33,14 +33,14 @@ timisbusy.content.marquis =
 },
 {
   headline: "World Record Holder",
-  body: "That's right. You are currently on the website of the world record holder for most tweets in a row with all 26 letters.",
+  body: "That's right. You are currently on the website of the world record holder for most tweets in a row with all 26 letters. Definitely put that on your resume.",
   buttonCopy: "Really?",
   url: "http://recordsetter.com/world-record/consecutive-tweets-using-every-letter-the-alphabet/7331#contentsection",
   background: "/images/coney.jpeg"
 },
 {
   headline: "Thanks!",
-  body: "Like my website? You can have it.",
+  body: "Like this site? You can have it.",
   buttonCopy: "Clone Me",
   url: "https://github.com/timisbusy/timisbusy.github.com",
   background: "/images/thanks.jpeg"
