@@ -5,14 +5,14 @@ timisbusy.content = timisbusy.content || {};
 timisbusy.content.marquis = 
 [{
   headline: "Code",
-  body: "I build real-time web apps using the latest NoSQL hipster nonsense out there.",
+  body: "I use JavaScript, APIs, and a bunch of great open source technologies to build real-time web apps.",
   buttonCopy: "Check It Out",
   url: "https://github.com/timisbusy",
   background: "/images/lifeIsGood.jpeg"
 },
 {
   headline: "Copy",
-  body: "I worked for years as a copywriter and creative technologist in advertising.",
+  body: "I used to work in advertising as a copywriter and creative technologist.",
   buttonCopy: "Read It",
   url: "http://timisbusy.github.com/copy",
   background: "/images/einsteinChillin.jpeg"
@@ -26,7 +26,7 @@ timisbusy.content.marquis =
 },
 {
   headline: "Cycling",
-  body: "I ride Loretta pretty much every day, but you can take her for a spin if you ask real nice.",
+  body: "I ride Loretta pretty much every day. You can take her for a spin if you ask real nice.",
   buttonCopy: "Rent My Bike",
   url: "https://www.spinlister.com/bikes/215",
   background: "/images/loretta.jpeg"
@@ -40,7 +40,7 @@ timisbusy.content.marquis =
 },
 {
   headline: "Thanks!",
-  body: "Like my website? You can have it.",
+  body: "Like my website? It's all yours.",
   buttonCopy: "Clone Me",
   url: "https://github.com/timisbusy/timisbusy.github.com",
   background: "/images/thanks.jpeg"
