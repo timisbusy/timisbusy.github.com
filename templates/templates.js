@@ -9,7 +9,7 @@ timisbusy.templates.marquisItemTemplate =
     <div class='marquisContent'>\
       <h3>{{ headline }}</h3>\
       <p>{{ body }}</p>\
-      <a href='{{ url }}' class='button'>{{ buttonCopy }}</a>\
+      <a href='{{ url }}' target='_blank' class='button'>{{ buttonCopy }}</a>\
     </div>\
   </div>";
 
