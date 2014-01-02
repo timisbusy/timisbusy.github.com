@@ -83,7 +83,7 @@ timisbusy.views.ListItem = Backbone.View.extend({
     this.render();
   },
   render: function () {
-    $(this.el).html("<a href = '" + this.model.url + "'>" + this.model.text + "</a>");
+    $(this.el).html("<a href = '" + this.model.url + "' target='_blank'>" + this.model.text + "</a>");
   }
 });
 
