@@ -25,13 +25,6 @@ timisbusy.content.marquis =
   background: "/images/oprah.jpeg"
 },
 {
-  headline: "Cycling",
-  body: "I ride Loretta pretty much every day. You can take her for a spin if you ask real nice.",
-  buttonCopy: "Rent My Bike",
-  url: "https://www.spinlister.com/bikes/215",
-  background: "/images/loretta.jpeg"
-},
-{
   headline: "World Record Holder",
   body: "That's right. You are currently on the website of the world record holder for most tweets in a row with all 26 letters. Definitely put that on your resume.",
   buttonCopy: "Really?",
@@ -98,10 +91,6 @@ timisbusy.content.lists =
   idName: "lifeList",
   items: 
     [{
-      text: "Rent my bike!",
-      url: "https://www.spinlister.com/bikes/215"
-    },
-    {
       text: "Reading",
       url: "http://www.goodreads.com/timisbusy"
     },
