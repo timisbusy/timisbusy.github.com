@@ -4,7 +4,7 @@ body {
 }
 
 a h1 {
-  color: #FDE;
+  color: #FFF;
   padding: 1em 2em .5em 2em;
 }
 
@@ -21,7 +21,7 @@ h3 {
   width: 60em;
   margin: 0px auto;
   font-family: 'Helvetica', 'arial', 'sans-serif';
-  color: #FDE;
+  color: #FFF;
   background: rgb(120,100,220);
   background: rgba(120,100,220, .5);
 }
@@ -97,13 +97,14 @@ a.button {
 
 #headerLinks {
   float: right;
-  margin-top: -4.5em;
+  margin-top: -5em;
   margin-right: 2em;
 }
 
 #headerLinks > a {
   margin-right: 1em;
   background: transparent;
+  color: #FFF;
 }
 
 #footer {
