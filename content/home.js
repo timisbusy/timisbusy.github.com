@@ -12,21 +12,21 @@ timisbusy.content.marquis =
 },
 {
   headline: "Copy",
-  body: "I worked as a copywriter and technologist at advertising agencies.",
+  body: "I worked as a copywriter and creative technologist at ad agencies.",
   buttonCopy: "Read It",
-  url: "http://timisbusy.github.com/copy",
+  url: "/copy",
   background: "/images/einsteinChillin.jpeg"
 },
 {
   headline: "Film",
   body: "I helped write a documentary. How does that work?",
-  buttonCopy: "OMG IMDB",
+  buttonCopy: "IMDB!!!!",
   url: "http://www.imdb.com/name/nm4917432/",
   background: "/images/oprah.jpeg"
 },
 {
   headline: "World Record Holder",
-  body: "That's right. You are currently on the website of the world record holder for most tweets in a row with all 26 letters. Definitely put that on your resume.",
+  body: "That's right. I'm the world record holder for most tweets in a row with all 26 letters.",
   buttonCopy: "Really?",
   url: "http://recordsetter.com/world-record/consecutive-tweets-using-every-letter-the-alphabet/7331#contentsection",
   background: "/images/coney.jpeg"
@@ -46,10 +46,7 @@ timisbusy.content.lists =
   idName: "copyList",
   items: 
     [{
-      text: "Dos Equis (Web)",
-      url: "http://staythirstymyfriends.com"
-    },{
-      text: "Dos Equis (TV)",
+      text: "Dos Equis TV",
       url: "http://www.youtube.com/watch?v=zX6M7-rAFJE"
     },{
       text: "The Naked Brand",
@@ -68,9 +65,6 @@ timisbusy.content.lists =
     },{
       text: "GoChime",
       url: "http://beta.gochime.com"
-    },{
-      text: "DioramaTV",
-      url: "http://dioramatv.com"
     },{
       text: "This Site",
       url: "https://github.com/timisbusy/timisbusy.github.com"

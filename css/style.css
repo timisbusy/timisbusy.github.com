@@ -33,6 +33,10 @@ h3 {
   text-decoration: none;
 }
 
+.page a.noback {
+  background: none;
+}
+
 .page > p {
   padding: 2em 4em 1em 4em;
 }
@@ -55,6 +59,7 @@ h3 {
   height: 16em;
   background: rgb(99,73,112);
   background: rgba(99,73,112, .4);
+  line-height: 1.6em;
 }
 
 .marquisContent p {
@@ -97,7 +102,7 @@ a.button {
 
 #headerLinks {
   float: right;
-  margin-top: -5em;
+  margin-top: -5.5em;
   margin-right: 2em;
 }
 
@@ -117,4 +122,22 @@ a.button {
 
 #footer > p {
   line-height: 2em;
+}
+
+.portfolio {
+  padding: 2em 4em;
+}
+
+.portfolio ul {
+  padding: 0em;
+  list-style-type: none;
+}
+
+.portfolio li {
+  margin-top: 2em;
+}
+
+.portfolio a {
+  font-size: 18pt;
+  text-decoration: none;
 }
